@@ -11,3 +11,7 @@ This project serves as a template for bootstrapping a JavaScript development env
 [Node Security Platform](https://nodesecurity.io/)  
 `> nsp check`
 
+## Development Server
+* Express
+* Live Server
+* Browsersync
