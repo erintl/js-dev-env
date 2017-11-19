@@ -15,3 +15,9 @@ This project serves as a template for bootstrapping a JavaScript development env
 * Express
 * Live Server
 * Browsersync
+
+### Share Your Work
+* Localtunnel
+
+## Automation
+* npm scripts
