@@ -38,3 +38,13 @@ This project serves as a template for bootstrapping a JavaScript development env
     * eslint-loader - relints all files upon save
     * eslint-watch - ESLint wrapper that adds file watch
     * babel-eslint - experimental features
+
+## Testing
+* Framework - Mocha
+  * Assertion library - Chai
+  * Helper library
+    * JSDOM
+    * Cheerio
+
+# Continuous Integration
+* Travis CI

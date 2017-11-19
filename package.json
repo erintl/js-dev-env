@@ -1,7 +1,7 @@
 {
   "name": "javascript-development-environment",
   "version": "1.0.0",
-  "description": "JavaScript development environment Pluralsight course by Cory House",
+  "description": "JavaScript development environment",
   "scripts": {
     "prestart": "babel-node build_scripts/startMessage.js",
     "start": "npm-run-all --parallel security-check open:src lint:watch",
@@ -10,7 +10,9 @@
     "lint:watch": "npm run lint -- --watch",
     "security-check": "nsp check",
     "localtunnel": "lt --port 3000",
-    "share": "npm-run-all --parallel open:src localtunnel"
+    "share": "npm-run-all --parallel open:src localtunnel",
+    "test": "mocha --reporter progress build_scripts/testSetup.js \"src/**/*.spec.js\"",
+    "test:watch": "npm run test -- --watch"
   },
   "author": "Timothy Erin",
   "license": "MIT",
