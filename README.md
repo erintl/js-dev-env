@@ -27,3 +27,6 @@ This project serves as a template for bootstrapping a JavaScript development env
 * TypeScript
 
 ## Bundling
+* Webpack
+  * Use ES6 modules
+  * Source maps for debugging
