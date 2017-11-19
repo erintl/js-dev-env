@@ -21,3 +21,9 @@ This project serves as a template for bootstrapping a JavaScript development env
 
 ## Automation
 * npm scripts
+
+## Transpiling
+* Babel
+* TypeScript
+
+## Bundling
