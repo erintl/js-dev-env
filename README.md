@@ -30,3 +30,11 @@ This project serves as a template for bootstrapping a JavaScript development env
 * Webpack
   * Use ES6 modules
   * Source maps for debugging
+
+## Linting
+* ESLint
+  * Configuration file format - .eslintrc.json
+  * File watching
+    * eslint-loader - relints all files upon save
+    * eslint-watch - ESLint wrapper that adds file watch
+    * babel-eslint - experimental features
