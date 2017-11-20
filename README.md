@@ -48,3 +48,13 @@ This project serves as a template for bootstrapping a JavaScript development env
 
 # Continuous Integration
 * Travis CI
+
+# HTTP
+* HTTP API - Fetch
+* Selective Polyfill - [polyfill.io](https://polyfill.io/v2/docs/)
+* Mock HTTP
+  * JSON Schema Faker
+    * faker.js
+    * chance.js
+    * randexp.js
+  * JSON Server
