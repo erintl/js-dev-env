@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
   </head>
   <body>
+    <% if (htmlWebpackPlugin.options.modeIndicator) { %>
+      <v><%=htmlWebpackPlugin.options.modeIndicator%></v>
+    <% } %>
     <h1>Users</h1>
     <table>
       <thead>
@@ -17,6 +20,5 @@
 
       </tbody>
     </table>
-    <script src="bundle.js"></script>
   </body>
 </html>

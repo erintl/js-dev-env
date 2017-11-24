@@ -58,3 +58,20 @@ This project serves as a template for bootstrapping a JavaScript development env
     * chance.js
     * randexp.js
   * JSON Server
+
+# Production Build Setup
+* Minification
+* Sourcemaps
+* Dynamic HTML
+  * html-webpack-plugin
+* Cache busting
+  * based on js expiration time of web server (far future headers)
+  * use `webpack-md5-hash` package.
+* Bundle splitting
+  * Split by page or by libraries
+* Extract and minify CSS
+  * use `extract-text-webpack-plugin`.
+* Error logging
+  * Track.js
+* Templating
+  * embeddedJS
